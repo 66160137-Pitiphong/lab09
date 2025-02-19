@@ -1,0 +1,209 @@
+/* Reset ค่าพื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container หลัก */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อ */
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* รายชื่อผู้ใช้ */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.user:hover {
+    background: #ddd;
+}
+
+/* รายละเอียดผู้ใช้ */
+.user-detail {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* รายการโพสต์ */
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ความคิดเห็น */
+.comments {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* ปุ่มย้อนกลับ */
+.back-button {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+/* รายชื่อผู้ใช้ */
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* รายการผู้ใช้ */
+.user {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user:hover {
+    background: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ข้อความชื่อผู้ใช้ */
+.user p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* ข้อความอีเมล */
+.user span {
+    font-size: 14px;
+    color: #555;
+}
+/* Reset ค่าเริ่มต้น */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* กล่องข้อมูลผู้ใช้ */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* ข้อความหัวข้อ */
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* ข้อมูลผู้ใช้ */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* ลิงก์ */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ปุ่ม */
+button {
+    display: block;
+    width: 20%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+ /* จัดปุ่มให้อยู่ตรงกลาง */
+.button-container {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    margin-top: 10px; /* เพิ่มระยะห่างด้านบน */
+}
+/* กล่องความคิดเห็น */
+.comment {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ข้อความความคิดเห็น */
+.comment p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
